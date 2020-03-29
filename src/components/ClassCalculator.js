@@ -16,14 +16,6 @@ class ClassCalculator extends Component {
     result: 0
   };
 
-  addition = () => {
-    this.setState({
-      result: this.state.firstValue + this.state.secondValue
-    });
-  };
-  substraction = () => {};
-  multiplication = () => {};
-  division = () => {};
   calculate = operator => {
     switch (operator) {
       case "+":
