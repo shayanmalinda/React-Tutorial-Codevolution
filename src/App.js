@@ -14,11 +14,12 @@ import HookCounter from "./components/HookCounter";
 import HookForm from "./components/HookForm";
 import HookList from "./components/HookList";
 import HookDataFetch from "./components/HookDataFetch";
+import ClassCalculator from "./components/ClassCalculator";
 
 function App() {
   return (
     <div className="App">
-      <HookDataFetch />
+      <ClassCalculator />
     </div>
   );
 }
