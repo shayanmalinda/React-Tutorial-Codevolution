@@ -15,11 +15,12 @@ import HookForm from "./components/HookForm";
 import HookList from "./components/HookList";
 import HookDataFetch from "./components/HookDataFetch";
 import ClassCalculator from "./components/ClassCalculator";
+import ClassCalculatorTwo from "./components/ClassCalculatorTwo";
 
 function App() {
   return (
     <div className="App">
-      <ClassCalculator />
+      <ClassCalculatorTwo />
     </div>
   );
 }
