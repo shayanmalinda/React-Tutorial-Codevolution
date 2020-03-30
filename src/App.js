@@ -16,11 +16,12 @@ import HookList from "./components/HookList";
 import HookDataFetch from "./components/HookDataFetch";
 import ClassCalculator from "./components/ClassCalculator";
 import ClassCalculatorTwo from "./components/ClassCalculatorTwo";
+import HookCalculator from "./components/HookCalculator";
 
 function App() {
   return (
     <div className="App">
-      <ClassCalculatorTwo />
+      <HookCalculator />
     </div>
   );
 }

@@ -11,7 +11,8 @@ const button = {
 
 const textbox = {
   marginTop: "100px",
-  fontSize: "50px"
+  fontSize: "50px",
+  textAlign: "right"
 };
 
 class ClassCalculatorTwo extends Component {
